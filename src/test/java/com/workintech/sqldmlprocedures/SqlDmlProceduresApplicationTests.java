@@ -130,6 +130,6 @@ class SqlDmlProceduresApplicationTests {
 		List<Ogrenci> testResult = ogrenciList.stream()
 				.filter(ogr -> ogr.getAd().equals("Test")).collect(Collectors.toList());
 
-		assertEquals(testResult.size(), 0);
+		assertEquals(testResult.size(),0);
 	}
 }
